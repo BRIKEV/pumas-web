@@ -1,28 +1,29 @@
 <template>
-  <header class="ui vertical banner">
-
-    <div class="ui container">
-      <nav class="ui large secondary inverted pointing menu">
-        <AppLogo />
-        <a class="toc item">
-          <i class="sidebar icon"></i>
-        </a>
-        <a class="active item">Inicio</a>
-        <a class="item">Sobre nosotros</a>
-        <a class="item">Calendario</a>
-      </nav>
+  <header class="navbar">
+    <div class="image-container">
+      <AppLogo />
     </div>
-
-    <div class="ui text container">
-      <h1 class="ui inverted header">
-        Bienvenidos a la Página Oficial de los Pumas
-      </h1>
-      <h2>Club de baloncesto desde el 2010</h2>
-    </div>
+    <nav class="ui large secondary menu">
+      <a class="item"><i class="basketball ball icon"></i>Inicio</a>
+      <a class="item"><i class="users icon"></i>Sobre nosotros</a>
+      <a class="item"><i class="calendar alternate outline icon"></i>Calendario</a>
+    </nav>
   </header>
 </template>
 <style lang="scss" scoped>
-.banner {
-  background-image: url('/images/team_court_compressed.avif');
+.navbar {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: $white;
+  z-index: 9;
+  .image-container {
+    max-width: 80px;
+  }
 }
 </style>
