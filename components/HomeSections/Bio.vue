@@ -34,16 +34,20 @@
               pulvinar dapibus leo. </p>
           </div>
         </div>
-        <div class="img-container">
-          <img src="/images/team_sitting_basketball_court.jpg" alt="basketball court">
-        </div>
       </div>
+    </div>
+    <div class="img-container">
+      <img src="/images/team_sitting_basketball_court.jpg" alt="basketball court">
     </div>
   </section>
 </template>
 <style lang="scss" scoped>
 .bio {
   margin-bottom: 40px;
+  @include desktop {
+    display: flex;
+    gap: 20px;
+  }
   .bio-item {
     display: flex;
     justify-content: space-between;
@@ -53,6 +57,9 @@
     background: rgb(0,0,0);
     background: linear-gradient(135deg, $black 0%, $primary 100%);
     padding: 1em;
+    @include desktop {
+      width: 70%;
+    }
     img {
       width: 100%;
       filter: brightness(115%) contrast(100%) saturate(0%) blur(0px) hue-rotate(0deg);

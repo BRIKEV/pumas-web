@@ -34,6 +34,11 @@
   background-color: $black;
   padding: 30px;
   margin-bottom: 40px;
+  @include desktop {
+    display: flex;
+    justify-content: space-around;
+    gap: 10PX;
+  }
   .news-item {
     display: flex;
     gap: 20px;

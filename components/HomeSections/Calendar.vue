@@ -1,6 +1,6 @@
 <template>
   <section class="ui container">
-    <h2>Calendario</h2>
+    <h2 class="ui centered">Calendario</h2>
     <p>Estos van a ser los siguientes partidos de Pumas.</p>
     <div class="ui card fluid">
       <div class="content">
