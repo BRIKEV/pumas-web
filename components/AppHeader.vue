@@ -5,7 +5,7 @@
     </div>
     <nav class="ui large secondary menu">
       <a class="item"><i class="basketball ball icon"></i>Inicio</a>
-      <a class="item"><i class="users icon"></i>Sobre nosotros</a>
+      <a class="item"><i class="users icon"></i>Nosotros</a>
       <a class="item"><i class="calendar alternate outline icon"></i>Calendario</a>
     </nav>
   </header>

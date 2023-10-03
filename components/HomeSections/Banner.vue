@@ -15,7 +15,7 @@
   height: 40vh;
   color: $white;
   background: rgb(0,0,0);
-  background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(34,117,65,1) 100%);
+  background: radial-gradient(circle, $black 0%, $primary 100%);
   .overlay {
     position: absolute;
     top: 0;
@@ -27,6 +27,7 @@
     background-size: cover;
   }
   .info {
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
