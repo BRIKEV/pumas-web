@@ -1,12 +1,14 @@
 <template>
   <header class="navbar">
     <div class="image-container">
-      <AppLogo />
+      <NuxtLink to="/">
+        <AppLogo />
+      </NuxtLink>
     </div>
     <nav class="ui large secondary menu">
-      <a class="item"><i class="basketball ball icon"></i>Inicio</a>
-      <a class="item"><i class="users icon"></i>Nosotros</a>
-      <a class="item"><i class="calendar alternate outline icon"></i>Calendario</a>
+      <NuxtLink to="/" class="item hide-xs"><i class="basketball ball icon nav-icon"></i>Inicio</NuxtLink>
+      <NuxtLink to="/club" class="item"><i class="users icon nav-icon"></i>Nosotros</NuxtLink>
+      <NuxtLink to="/calendario" class="item"><i class="calendar alternate outline icon nav-icon"></i>Calendario</NuxtLink>
     </nav>
   </header>
 </template>
@@ -24,6 +26,16 @@
   z-index: 9;
   .image-container {
     max-width: 80px;
+  }
+  @include small-mobile {
+    .item.hide-xs {
+      display: none;
+    }
+  }
+  @include mobile {
+    .nav-icon {
+      display: none;
+    }
   }
 }
 </style>

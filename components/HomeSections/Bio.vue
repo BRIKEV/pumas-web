@@ -52,9 +52,13 @@
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    i {
+      font-size: 2.5rem;
+      color: $primary;
+    }
   }
   .img-container {
-    background: rgb(0,0,0);
+    background: $black;
     background: linear-gradient(135deg, $black 0%, $primary 100%);
     padding: 1em;
     @include desktop {
