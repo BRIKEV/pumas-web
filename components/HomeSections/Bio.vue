@@ -52,6 +52,7 @@
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    margin-bottom: 1em;
     i {
       font-size: 2.5rem;
       color: $primary;

@@ -2,26 +2,20 @@
   <footer class="ui inverted vertical footer segment">
     <div class="ui container">
       <div class="ui stackable inverted divided equal height stackable grid">
-        <div class="three wide column">
+        <div class="nine wide column">
           <h4 class="ui inverted header">Sobre nosotros</h4>
           <div class="ui inverted link list">
-            <a href="#" class="item">Contacto</a>
-            <a href="#" class="item">Religious Ceremonies</a>
-            <a href="#" class="item">Gazebo Plans</a>
+            <a href="mailto:info.baloncestopumas@gmail.com" class="item">info.baloncestopumas@gmail.com</a>
+            <NuxtLink to="/calendario" class="item">
+              Calendario de partidos
+            </NuxtLink>
           </div>
-        </div>
-        <div class="three wide column">
-          <h4 class="ui inverted header">Services</h4>
-          <div class="ui inverted link list">
-            <a href="#" class="item">Banana Pre-Order</a>
-            <a href="#" class="item">DNA FAQ</a>
-            <a href="#" class="item">How To Access</a>
-            <a href="#" class="item">Favorite X-Men</a>
-          </div>
+          <nav class="ui inverted link list">
+    </nav>
         </div>
         <div class="seven wide column">
           <AppLogo />
-          <p>Extra space for a call to action inside the footer that could help re-engage users.</p>
+          <p>Creciendo con el baloncesto, creciendo con el equipo.</p>
         </div>
       </div>
     </div>

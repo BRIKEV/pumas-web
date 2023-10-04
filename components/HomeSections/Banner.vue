@@ -16,6 +16,9 @@
   color: $white;
   background: rgb(0,0,0);
   background: radial-gradient(circle, $black 0%, $primary 100%);
+  @include desktop {
+    height: 60vh;
+  }
   .overlay {
     position: absolute;
     top: 0;
@@ -25,6 +28,7 @@
     opacity: 0.4;
     background-image: url('/images/team_court_compressed.avif');
     background-size: cover;
+    background-position: center;
   }
   .info {
     text-align: center;

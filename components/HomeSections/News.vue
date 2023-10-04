@@ -32,8 +32,8 @@
 <style lang="scss" scoped>
 .news {
   background-color: $black;
-  padding: 30px;
-  margin-bottom: 40px;
+  padding: 2em;
+  margin-bottom: 5em;
   @include desktop {
     display: flex;
     justify-content: space-around;
