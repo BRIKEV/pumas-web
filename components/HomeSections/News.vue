@@ -14,6 +14,7 @@ const { data: news } = await useAsyncData('news', () =>
   queryContent('/novedades')
   .only(['date', 'title', '_path'])
   .limit(4)
+  .sort({ date: -1 })
   .find()
 );
 </script>
