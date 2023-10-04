@@ -1,34 +1,22 @@
 <template>
   <section class="news">
-    <div class="news-item">
-      <div class="image-container">
-        <img src="/images/team_court_compressed.avif" alt="new 1">
-      </div>
-      <div class="news-text">
-        <h4>Bulls hold off Pacers to improve to 3-2, LaVine scores 28</h4>
-        <h6>October 30, 2022</h6>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="image-container">
-        <img src="/images/team_court_compressed.avif" alt="new 1">
-      </div>
-      <div class="news-text">
-        <h4>Bulls hold off Pacers to improve to 3-2, LaVine scores 28</h4>
-        <h6>October 30, 2022</h6>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="image-container">
-        <img src="/images/team_court_compressed.avif" alt="new 1">
-      </div>
-      <div class="news-text">
-        <h4>Bulls hold off Pacers to improve to 3-2, LaVine scores 28</h4>
-        <h6>October 30, 2022</h6>
-      </div>
-    </div>
+    <NewsItem
+      v-for="newItem in news"
+      :title="newItem.title"
+      :date="newItem.date"
+      image="/images/team_court_compressed.avif"
+      :path="newItem._path"
+    />
   </section>
 </template>
+<script setup lang="ts">
+const { data: news } = await useAsyncData('news', () => 
+  queryContent('/novedades')
+  .only(['date', 'title', '_path'])
+  .limit(4)
+  .find()
+);
+</script>
 <style lang="scss" scoped>
 .news {
   background-color: $black;
@@ -38,20 +26,6 @@
     display: flex;
     justify-content: space-around;
     gap: 10PX;
-  }
-  .news-item {
-    display: flex;
-    gap: 20px;
-    justify-content: space-between;
-    .image-container {
-      max-width: 80px;
-      img {
-        width: 100%;
-      }
-    }
-    .news-text {
-      color: $white;
-    }
   }
 }
 </style>
