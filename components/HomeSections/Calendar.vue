@@ -1,16 +1,18 @@
 <template>
   <section class="ui container calendar">
-    <h2 class="ui title">Próximos partidos</h2>
-    <p>Estos van a ser los siguientes partidos de Pumas.</p>
-    <CalendarItem />
-    <CalendarItem />
-    <CalendarItem />
-    <NuxtLink to="/calendario">
-      <button class="ui green button">
-        <i class="calendar alternate outline icon nav-icon"></i>
-        Calendario completo
-      </button>
-    </NuxtLink>
+    <FadeInContainer>
+      <h2 class="ui title">Próximos partidos</h2>
+      <p>Estos van a ser los siguientes partidos de Pumas.</p>
+      <CalendarItem />
+      <CalendarItem />
+      <CalendarItem />
+      <NuxtLink to="/calendario">
+        <button class="ui green button">
+          <i class="calendar alternate outline icon nav-icon"></i>
+          Calendario completo
+        </button>
+      </NuxtLink>
+    </FadeInContainer>
   </section>
 </template>
 <style lang="scss" scoped>

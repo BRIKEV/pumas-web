@@ -1,44 +1,48 @@
+
+import FadeInContainer from '../FadeInContainer.vue';
 <template>
   <section class="ui container bio">
-    <div>
-      <h2>Stay connected. Stay active. Play hard.
-      </h2>
-      <p>Penatibus dapibus ac condimentum curae egestas auctor elit scelerisque felis mi blandit. Massa nibh posuere
-        scelerisque curae ornare lacinia sapien.</p>
+    <FadeInContainer>
       <div>
-        <div class="bio-item">
-          <div>
-            <i class="basketball ball icon"></i>
-          </div>
-          <div>
+        <h2>Stay connected. Stay active. Play hard.
+        </h2>
+        <p>Penatibus dapibus ac condimentum curae egestas auctor elit scelerisque felis mi blandit. Massa nibh posuere
+          scelerisque curae ornare lacinia sapien.</p>
+        <div>
+          <div class="bio-item">
             <div>
-              <h4>
-                Basketball Club &amp; Community </h4>
+              <i class="basketball ball icon"></i>
             </div>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis,
-              pulvinar dapibus leo. </p>
-          </div>
-        </div>
-        <div class="bio-item">
-          <div>
-            <i class="users icon"></i>
-          </div>
-          <div>
             <div>
-              <h4>
-                Course &amp; Professional Training </h4>
+              <div>
+                <h4>
+                  Basketball Club &amp; Community </h4>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis,
+                pulvinar dapibus leo. </p>
             </div>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis,
-              pulvinar dapibus leo. </p>
+          </div>
+          <div class="bio-item">
+            <div>
+              <i class="users icon"></i>
+            </div>
+            <div>
+              <div>
+                <h4>
+                  Course &amp; Professional Training </h4>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis,
+                pulvinar dapibus leo. </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="img-container">
-      <img src="/images/team_sitting_basketball_court.jpg" alt="basketball court">
-    </div>
+      <div class="img-container">
+        <img src="/images/team_sitting_basketball_court.jpg" alt="basketball court">
+      </div>
+    </FadeInContainer>
   </section>
 </template>
 <style lang="scss" scoped>
@@ -53,18 +57,22 @@
     justify-content: space-between;
     gap: 20px;
     margin-bottom: 1em;
+
     i {
       font-size: 2.5rem;
       color: $primary;
     }
   }
+
   .img-container {
     background: $black;
     background: linear-gradient(135deg, $black 0%, $primary 100%);
     padding: 1em;
+
     @include desktop {
       width: 70%;
     }
+
     img {
       width: 100%;
       filter: brightness(115%) contrast(100%) saturate(0%) blur(0px) hue-rotate(0deg);
