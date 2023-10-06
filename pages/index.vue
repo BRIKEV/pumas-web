@@ -3,6 +3,7 @@
     <HomeSectionsBanner/>
     <HomeSectionsNews />
     <HomeSectionsBio />
+    <HomeSectionsDoubts />
     <HomeSectionsCalendar />
     <HomeSectionsLocation />
   </div>

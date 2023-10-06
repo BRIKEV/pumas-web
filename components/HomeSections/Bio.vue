@@ -1,8 +1,6 @@
-
-import FadeInContainer from '../FadeInContainer.vue';
 <template>
-  <section class="ui container bio">
-    <FadeInContainer>
+  <FadeInContainer>
+    <section class="ui container bio">
       <div>
         <h2>Stay connected. Stay active. Play hard.
         </h2>
@@ -42,12 +40,12 @@ import FadeInContainer from '../FadeInContainer.vue';
       <div class="img-container">
         <img src="/images/team_sitting_basketball_court.jpg" alt="basketball court">
       </div>
-    </FadeInContainer>
-  </section>
+    </section>
+  </FadeInContainer>
 </template>
 <style lang="scss" scoped>
 .bio {
-  margin-bottom: 40px;
+  margin-bottom: 5em;
   @include desktop {
     display: flex;
     gap: 20px;

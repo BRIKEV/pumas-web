@@ -11,6 +11,6 @@
 </template>
 <style lang="scss" scoped>
 .location {
-  margin-bottom: 2em;
+  margin-bottom: 5em;
 }
 </style>
