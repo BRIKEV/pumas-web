@@ -2,10 +2,9 @@
   <FadeInContainer>
     <section class="ui container bio">
       <div>
-        <h2>Stay connected. Stay active. Play hard.
+        <h2>Quienes somos
         </h2>
-        <p>Penatibus dapibus ac condimentum curae egestas auctor elit scelerisque felis mi blandit. Massa nibh posuere
-          scelerisque curae ornare lacinia sapien.</p>
+        <p>Somos el CDE Baloncesto Pumas y comenzamos nuestra trayectoria en el distrito de Chamartín, Madrid, en el Colegio Pintor Rosales en el año 2012. Desde 2016, hemos estado trabajando en colaboración con los Colegios Reina Victoria y Amador de los Ríos, compitiendo en los <a href="https://www.madrid.es/portales/munimadrid/es/Inicio/Cultura-ocio-y-deporte/Deporte/Competiciones-deportivas-municipales-2023-2024/?vgnextfmt=default&vgnextoid=3272bdf3ca5b2810VgnVCM1000001d4a900aRCRD&vgnextchannel=c7a8efff228fe410VgnVCM2000000c205a0aRCRD&idCapitulo=11749137" target="_blank" rel="noopener">Juegos Deportivos Municipales (JDM).</a></p>
         <div>
           <div class="bio-item">
             <div>
@@ -13,12 +12,9 @@
             </div>
             <div>
               <div>
-                <h4>
-                  Basketball Club &amp; Community </h4>
+                <h4>Filosofía</h4>
               </div>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis,
-                pulvinar dapibus leo. </p>
+              <p>Nuestra filosofía en nuestras escuelas se centra en la educación basada en los valores del respeto, la tolerancia y la responsabilidad, mientras fomentamos el amor por este deporte. Es fundamental que nuestros niños disfruten mientras aprenden, al tiempo que les enseñamos a trabajar en equipo, a ser disciplinados y a cultivar una actitud positiva</p>
             </div>
           </div>
           <div class="bio-item">
@@ -27,12 +23,9 @@
             </div>
             <div>
               <div>
-                <h4>
-                  Course &amp; Professional Training </h4>
+                <h4> Colaboración en Nuestra Comunidad de Baloncesto</h4>
               </div>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis,
-                pulvinar dapibus leo. </p>
+              <p>Descubre cómo colaborar de manera efectiva en nuestra comunidad de baloncesto, fomentando el respeto y la colaboración. <a href="/nuestra-comunidad">Más información</a></p>
             </div>
           </div>
         </div>
@@ -54,7 +47,7 @@
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    margin-bottom: 1em;
+    margin: 2.2em 0 0 0;
 
     i {
       font-size: 2.5rem;

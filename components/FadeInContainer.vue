@@ -9,7 +9,7 @@
   view-timeline-axis: block;
   animation-timeline: --container;
   animation-name: fadeIn;
-  animation-range: entry 0% cover 75%;
+  animation-range: entry 0% cover 50%;
 }
 @keyframes fadeIn {
   from {
