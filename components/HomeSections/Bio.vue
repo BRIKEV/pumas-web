@@ -31,7 +31,7 @@
         </div>
       </div>
       <div class="img-container">
-        <img src="/images/team_sitting_basketball_court.jpg" alt="basketball court">
+        <img src="/images/pumas/team-together.jfif" alt="basketball court">
       </div>
     </section>
   </FadeInContainer>

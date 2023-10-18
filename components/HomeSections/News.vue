@@ -4,7 +4,7 @@
       v-for="newItem in news"
       :title="newItem.title"
       :date="newItem.date"
-      image="/images/team_court_compressed.avif"
+      image="/images/pumas/trophies.jfif"
       :path="newItem._path"
     />
   </section>

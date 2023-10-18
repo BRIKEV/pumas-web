@@ -26,7 +26,7 @@
     left: 0;
     right: 0;
     opacity: 0.4;
-    background-image: url('/images/team_court_compressed.avif');
+    background-image: url('/images/pumas/team-basket.jfif');
     background-size: cover;
     background-position: center;
   }
