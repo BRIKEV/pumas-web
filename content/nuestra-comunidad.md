@@ -32,3 +32,5 @@ description: 'Descubre cómo colaborar de manera efectiva en nuestra comunidad d
 - Valora el Esfuerzo y Actitud: Comprende las limitaciones de tus hijos y valora su dedicación, esfuerzo y actitud positiva por encima de sus logros. Fomenta el optimismo en su proceso de aprendizaje.
 - Respeto por sus Elecciones: Acepta que tus hijos tienen el derecho de no aspirar a ser campeones y respeta sus elecciones personales.
 - Promoción de la Deportividad: Evita promover la violencia verbal o física en cualquier contexto relacionado con el baloncesto. Enseña a tus hijos la importancia del respeto y la deportividad en el deporte.
+
+[Descargar guía](/docs/NORMAS_PUMAS.pdf){target="_blank" download="/docs/NORMAS_PUMAS.pdf"}
